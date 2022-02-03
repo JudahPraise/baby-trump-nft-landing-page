@@ -174,7 +174,6 @@ html{
     .about-container{
         width: 100%;
         padding: 5rem 0rem;
-        
     }
 
     .about-wrapper{
@@ -212,7 +211,7 @@ html{
 
     .about-text{
         width: 100%;
-        font-size: .8rem;
+        font-size: 1.2rem;
         font-weight: 700;
     }
 
@@ -322,7 +321,7 @@ html{
 
     .story-behind-img-2{
         display: block;
-        height: 50px;
+        height: 60px;
     }
 
     .storyline-content{
@@ -376,7 +375,7 @@ html{
 
     .join-community-2{
         display: block;
-        height: 120px;
+        height: 140px;
     }
 
 
@@ -540,7 +539,7 @@ html{
     }
 
     .trump-tower-text{
-        height: 25px;
+        height: 38px;
     }
 
     .team-container{
@@ -630,7 +629,7 @@ html{
     }
 
     .faq-text-image{
-        height: 50px;
+        height: 40px;
     }
 
     .faq-accordion-container{
@@ -731,7 +730,7 @@ html{
         width: 100%;
         padding: 4rem;
         display: flex;
-        justify-content: end;
+        justify-content: center;
     }
 
     .mint-button-img{
@@ -753,24 +752,24 @@ html{
     }
 
     .about-content{
-        width: 70%;
+        width: 100%;
     }
 
     .shrink-baby-trump{
         display: none;
     }
 
-    /* .about-header-container{
+    .about-header-container{
         padding: .8rem 0rem;
     }
 
     .about-header-text{
         height: 30px;
-    } */
+    }
 
     .about-text{
         width: 100%;
-        font-size: .8rem;
+        font-size: 1.2rem;
         font-weight: 700;
     }
 
@@ -1288,7 +1287,7 @@ html{
         width: 100%;
         padding: 4rem;
         display: flex;
-        justify-content: end;
+        justify-content: center;
     }
 
     .mint-button-img{
@@ -1310,7 +1309,7 @@ html{
     }
 
     .about-content{
-        width: 65%;
+        width: 80%;
     }
 
     .shrink-baby-trump{
@@ -1327,7 +1326,7 @@ html{
 
     .about-text{
         width: 100%;
-        font-size: .8rem;
+        font-size: 1.2rem;
         font-weight: 700;
     }
 
@@ -1434,7 +1433,7 @@ html{
     }
 
     .storyline-content{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 700;
         text-align: center;
         padding: 2rem 2rem;
@@ -1669,15 +1668,17 @@ html{
         padding: 2rem 0rem;
     }
 
-    /* .all-women-text-1{
-        display: none;
+    .all-women-text-1{
+        display: block;
+        height: 50px;
+        padding: .3rem;
+        border-bottom: 5px solid var(--yellow-dark);
+       
     }
 
     .all-women-text-2{
-        height: 120px;
-        padding: .3rem;
-        border-bottom: 5px solid var(--yellow-dark);
-    } */
+        display: none;
+    }
 
     .team-items-container{
         width: 100%;
@@ -1797,7 +1798,7 @@ html{
     }
 
     .logo-long{
-        height: 65px;
+        height: 50px;
     }
 
     .home-container{
@@ -1835,8 +1836,9 @@ html{
     .home-button-container{
         width: 100%;
         padding: 4rem;
+        margin-top: 2rem;
         display: flex;
-        justify-content: end;
+        justify-content: center;
     }
 
     .mint-button-img{
@@ -1850,14 +1852,14 @@ html{
 
     .about-wrapper{
         width: 100%;
-        margin: 3rem 0rem;
+        /* margin: 2rem 0rem; */
         display: flex;
         justify-content: center;
         gap: 2rem;
     }
 
     .about-content{
-        width: 50%;
+        width: 60%;
     }
 
     .shrink-baby-trump{
@@ -1874,7 +1876,7 @@ html{
 
     .about-text{
         width: 100%;
-        font-size: .8rem;
+        font-size: 1.2rem;
         font-weight: 700;
     }
 
@@ -1963,7 +1965,7 @@ html{
     }
 
     .storyline-wrapper{
-        width: 80%;
+        width: 95%;
         margin: 2rem 1rem;
         display: flex;
         flex-direction: column;
@@ -2159,7 +2161,7 @@ html{
 
     .tower-container{
         width: 100%;
-        height: 80vh;
+        height: 100vh;
         
     }
 
@@ -2382,7 +2384,7 @@ html{
         width: 100%;
         padding: 3rem;
         display: flex;
-        justify-content: end;
+        justify-content: center;
     }
 
     .mint-button-img{
@@ -2700,7 +2702,7 @@ html{
 
     .tower-container{
         width: 100%;
-        height: 70vh;  
+        height: 80vh;  
     }
 
     .tower-wrapper{
