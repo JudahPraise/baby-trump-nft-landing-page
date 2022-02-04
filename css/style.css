@@ -116,31 +116,45 @@ html{
     transform: translateY(-2px);
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 600px){
    .logo-circle{
-        height: 60px;
-        width: 60px;
+        height: 50px;
+        width: 50px;
     }
 
     .logo-long{
         display: none;
     }
 
+    .baby-trump-header{
+        position: absolute;
+        height: 60%;
+        width: 65%;
+        bottom: 0;
+        right: 16%;
+        z-index: 1;
+    }
+
     .home-container{
-        background-image: url('../images/background-header.jpg');
-        background-position: center;
+        background-image: url('../images/header.jpg');
+        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        height: 100vh;
         display:  flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
     .home-header-container{
-        padding: 3rem;
-        height: 80vh;
+        height: 40%;
         display: flex;
         justify-content: center;
+        align-items: center;
+        margin-top: 1.6rem;
+        z-index: 12;
     }
 
     .text-container{
@@ -154,7 +168,7 @@ html{
     .header-text{
         color: white;
         background-color: black;
-        font-size: 3rem;
+        font-size: 1.7rem;
         padding: 1rem;
         font-weight: 800;
         text-align: center;
@@ -162,18 +176,19 @@ html{
 
     .home-button-container{
         width: 100%;
-        padding: 4rem;
+        padding-bottom: 4rem;
         display: flex;
-        justify-content: end;
+        justify-content: center;
+        z-index: 12;
     }
 
     .mint-button-img{
-        height: 75px;
+        height: 50px;
     }
 
     .about-container{
         width: 100%;
-        padding: 5rem 0rem;
+        /* padding: 2rem 0rem; */
     }
 
     .about-wrapper{
@@ -195,8 +210,8 @@ html{
     }
 
     .shrink-baby-trump{
-        height: 90px;
-        width: 45px;
+        height:80px;
+        width: 40px;
     }
 
     .about-header-container{
@@ -206,7 +221,7 @@ html{
     }
 
     .about-header-text{
-        height: 40px!important;
+        height: 30px!important;
     }
 
     .about-text{
@@ -321,7 +336,7 @@ html{
 
     .story-behind-img-2{
         display: block;
-        height: 60px;
+        height: 50px;
     }
 
     .storyline-content{
@@ -375,7 +390,7 @@ html{
 
     .join-community-2{
         display: block;
-        height: 140px;
+        height: 130px;
     }
 
 
@@ -437,7 +452,7 @@ html{
     }
 
     .roadmap-image{
-        height: 40px;
+        height: 30px;
     }
 
     .roadmap-subheading{
@@ -506,7 +521,7 @@ html{
 
     .tower-container{
         width: 100%;
-        height: 70vh;
+        height: 40vh;
         overflow: hidden;
     }
 
@@ -526,24 +541,25 @@ html{
     }
 
     .trump-tower-image{
-        width: 2000px;
+        width: 1000px;
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: center center;
     }
 
     .tower-heading-container{
-        width: 100%;
+        width: 95%;
         display: flex;
         justify-content: center;
     }
 
     .trump-tower-text{
-        height: 38px;
+        height: 30px;
+        margin: 2rem;
     }
 
     .team-container{
-        width: 100%;
+        width: 95%;
         padding: 2rem;
     }
 
@@ -606,8 +622,8 @@ html{
     }
 
     .faq-container {
+        width: 95%;
         background-image: url('../images/trump-2024.png');
-        height: 100vh;
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -615,8 +631,7 @@ html{
     }
 
     .faq-wrapper{
-        padding: 5rem 2rem;
-        height: 100%;
+        padding: 5rem 1rem;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -629,11 +644,11 @@ html{
     }
 
     .faq-text-image{
-        height: 40px;
+        height: 30px;
     }
 
     .faq-accordion-container{
-        width: 80%;
+        width: 100%;
         display: flex;
         gap: 1rem;
         justify-content: flex-start;
@@ -662,7 +677,7 @@ html{
     .faq-heading{
         color: black;
         font-weight: 800;
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .faq-text{
@@ -679,8 +694,8 @@ html{
     }
 
     .footer-logo{
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
     }
 }
 
@@ -692,15 +707,23 @@ html{
     .logo-long{
         height: 65px;
     }
-
+    .baby-trump-header{
+        position: absolute;
+        height: 60%;
+        width: 40%;
+        bottom: 0;
+        right: 31%;
+        z-index: 1;
+    }
     .home-container{
-        background-image: url('../images/background-header.jpg');
+        background-image: url('../images/header.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display:  flex;
         flex-direction: column;
         justify-content: space-between;
+        
     }
 
     .home-header-container{
@@ -708,12 +731,14 @@ html{
         height: 80vh;
         display: flex;
         justify-content: center;
+        z-index: 12;
     }
 
     .text-container{
         width: 80%;
         margin-top: 4rem;
         display: flex;
+        padding: 1rem;
         justify-content: center;
         align-items: flex-start;
     }
@@ -721,7 +746,7 @@ html{
     .header-text{
         color: white;
         background-color: black;
-        font-size: 3.3rem;
+        font-size: 3rem;
         font-weight: 800;
         text-align: center;
     }
@@ -731,6 +756,7 @@ html{
         padding: 4rem;
         display: flex;
         justify-content: center;
+        z-index: 12;
     }
 
     .mint-button-img{
@@ -1065,7 +1091,6 @@ html{
 
     .tower-container{
         width: 100%;
-        height: 70vh;
     }
 
     .tower-wrapper{
@@ -1083,7 +1108,7 @@ html{
     }
 
     .trump-tower-image{
-        width: 2200px;
+        width: 1100px;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -1093,6 +1118,8 @@ html{
         width: 100%;
         display: flex;
         justify-content: center;
+        padding: 2.5rem;
+
     }
 
     .trump-tower-text{
@@ -1101,7 +1128,6 @@ html{
 
     .team-container{
         width: 100%;
-        padding: 3rem;
     }
 
     .team-wrapper{
@@ -1249,15 +1275,23 @@ html{
     .logo-long{
         height: 65px;
     }
-
+    .baby-trump-header{
+        position: absolute;
+        height: 60%;
+        width: 35%;
+        bottom: 0;
+        right: 31%;
+        z-index: 1;
+    }
     .home-container{
-        background-image: url('../images/background-header.jpg');
+        background-image: url('../images/header.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display:  flex;
         flex-direction: column;
         justify-content: space-between;
+        z-index: 12;
     }
 
     .home-header-container{
@@ -1266,6 +1300,7 @@ html{
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        z-index: 12;
     }
 
     .text-container{
@@ -1288,6 +1323,7 @@ html{
         padding: 4rem;
         display: flex;
         justify-content: center;
+        z-index: 12;
     }
 
     .mint-button-img{
@@ -1801,14 +1837,24 @@ html{
         height: 50px;
     }
 
+    .baby-trump-header{
+        position: absolute;
+        height: 70%;
+        width: 20%;
+        bottom: 0;
+        right: 40%;
+        z-index: 1;
+    }
+
     .home-container{
-        background-image: url('../images/background-header.jpg');
+        background-image: url('../images/header.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display:  flex;
         flex-direction: column;
         justify-content: space-between;
+        z-index: 12;
     }
 
     .home-header-container{
@@ -1839,6 +1885,7 @@ html{
         margin-top: 2rem;
         display: flex;
         justify-content: center;
+        z-index: 12;
     }
 
     .mint-button-img{
@@ -2348,8 +2395,18 @@ html{
         height: 70px;
     }
 
+
+    .baby-trump-header{
+        position: absolute;
+        height: 70%;
+        width: 20%;
+        bottom: 0;
+        right: 40%;
+        z-index: 1;
+    }
+
     .home-container{
-        background-image: url('../images/background-header.jpg');
+        background-image: url('../images/header.jpg');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -2364,6 +2421,7 @@ html{
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        z-index: 12;
     }
 
     .text-container{
@@ -2385,6 +2443,7 @@ html{
         padding: 3rem;
         display: flex;
         justify-content: center;
+        z-index: 12;
     }
 
     .mint-button-img{
@@ -2802,7 +2861,7 @@ html{
 
     .faq-container {
         background-image: url('../images/trump-2024.png');
-        height: 90vh;
+        height: 100vh;
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: 100%;
@@ -2810,7 +2869,7 @@ html{
     }
 
     .faq-wrapper{
-        padding: 5rem;
+        padding: 5rem 1rem;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
